@@ -12,8 +12,8 @@ class Sheets::Renderers::ExcelRenderer < Sheets::Renderers::Base
       end
     end
 
-    # Tried to use StringIO here, but ran into encoding issues with Ruby 1.8.7. 
-    file_path = "tmp_excel_render_#{Time.now.to_i}"
+    # Tried to use StringIO here, but ran into encoding issues with Ruby 1.8.7.
+    file_path = "tmp_excel_render_#{Time.now.to_i}_#{Thread.current.object_id.to_s(36)}"
     File.open(file_path, 'w+') {|file| workbook.write(file) }
     File.read(file_path)
   ensure

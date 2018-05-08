@@ -9,3 +9,4 @@ log/*
 *.rbc
 .ruby-version
 coverage
+.idea/

@@ -87,9 +87,9 @@ Test Suite Results
 
 Sheets uses Travis-CI for Continuous Integration.
 
-[![Build Status](https://travis-ci.org/healthfidelity/Sheets.png?branch=master)](https://travis-ci.org/healthfidelity/Sheets)
+[![Build Status](https://travis-ci.org/HealthFidelity/Sheets.png?branch=master)](https://travis-ci.org/HealthFidelity/Sheets)
 
-[![Code Climate](https://codeclimate.com/github/healthfidelity/Sheets.png)](https://codeclimate.com/github/healthfidelity/Sheets)
+[![Code Climate](https://codeclimate.com/github/HealthFidelity/Sheets.png)](https://codeclimate.com/github/HealthFidelity/Sheets)
 
 
 License

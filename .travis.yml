@@ -8,4 +8,4 @@ rvm:
  - jruby
 notifications:
   email:
-   - ajinkya.pisal+travis@gmail.com
+   - hfdevscout+oss@healthfidelity.com
